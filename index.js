@@ -8,7 +8,6 @@ import { authRouter, eventsRouter } from './routes/index.js';
 
 // creating express app
 const app = express();
-const router = express.Router();
 
 // function to connect to db
 dbConnection();
@@ -26,6 +25,10 @@ app.use(express.json());
 // routes
 app.use('/api.calendarapp/v1/', authRouter);
 app.use('/api.calendarapp/v1/', eventsRouter);
+// if any other route than the above routes are visited then return this
+app.get('*', (req, res) => {
+    res.sendFile(__dirname + '/public/index.html');
+});
 
 
 const port = process.env.PORT || 4000;

@@ -82,6 +82,8 @@ export const renewTokenController = async (req, res) => {
     const token = await generateJwt(uid, name);
     res.json({
         ok: true,
+        uid,
+        name,
         token
     });
 }
