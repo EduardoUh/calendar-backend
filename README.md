@@ -15,7 +15,7 @@ Backend para un calendario web, que permite la creación de cuentas de usuarios 
 
 ## **Pasos para correr el servidor**
 
-* Instalar node.js si no lo tiene.
+* Instalar node.js y npm si no los tiene.
 * Clonar, hacer fork o descargar el proyecto.
 * Abrir una ventana de comandos en la raíz del proyecto.
 * Ejecutar el siguiente comando ```npm install```, para installar todas la dependencias necesarias.
@@ -40,7 +40,7 @@ Backend for a web calendar, it allows users and calendar events creation.
 
 ## **Steps to get the server running**
 
-* Install node.js.
+* Install node.js and npm if you don't have them.
 * Clone, fork or download the project.
 * Open a cli in the project root.
 * Run the following command to install all necessary dependencies ```npm install```.
