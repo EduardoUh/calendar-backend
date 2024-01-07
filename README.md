@@ -25,6 +25,21 @@ Backend para un calendario web, que permite la creación de cuentas de usuarios 
 
 **Nota:** Para hacer peticiones a los endpoints puede usar Postman, Thunder client, o usar el frontend que hice para éste backend; [Ir al Calendar Frontend](https://github.com/EduardoUh/calendar-frontend "Calendar Frontend").
 
+## **Tecnologías usadas en el proyecto:**
+
+* JavaScript.
+* Node.js.
+* Express.
+* MongoDB
+* Mongoose Odm.
+* Json Web Token.
+* Express Validator.
+* Bcrypt.
+* Cors.
+* Moment.
+* Dotenv.
+* nodemon.
+
 ## **Description:**
 
 Backend for a web calendar, it allows users and calendar events creation.
@@ -49,3 +64,18 @@ Backend for a web calendar, it allows users and calendar events creation.
 * Now in the cli run the following server ```npm run server```, to get the server running.
 
 **Note:** To start making requests to the endpoints you can use Postman, Thunder client, or use the frontend I made for this backend; [Go to Calendar Frontend](https://github.com/EduardoUh/calendar-frontend "Calendar Frontend").
+
+## **Technologies used in the project:**
+
+* JavaScript.
+* Node.js.
+* Express.
+* MongoDB
+* Mongoose Odm.
+* Json Web Token.
+* Express Validator.
+* Bcrypt.
+* Cors.
+* Moment.
+* Dotenv.
+* nodemon.
