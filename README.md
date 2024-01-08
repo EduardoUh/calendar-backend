@@ -61,7 +61,7 @@ Backend for a web calendar, it allows users and calendar events creation.
 * Run the following command to install all necessary dependencies ```npm install```.
 * Get a MongoDB connection string, you can get a free cluster in the following link [go to MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register "MongoDb Atlas").
 * Rename the ```.env.template``` file to ```.env``` and asign the following values to the variables: PORT=4000 DB_CONNECTION="MongoDb connection string" JWT_SECRET="Any keyword you want e.g. MyPersonalKeyword".
-* Now in the cli run the following server ```npm run server```, to get the server running.
+* Now in the cli run the following command ```npm run server```, to get the server running.
 
 **Note:** To start making requests to the endpoints you can use Postman, Thunder client, or use the frontend I made for this backend; [Go to Calendar Frontend](https://github.com/EduardoUh/calendar-frontend "Calendar Frontend").
 
