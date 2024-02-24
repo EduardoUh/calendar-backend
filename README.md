@@ -13,17 +13,9 @@ Backend para un calendario web, que permite la creación de cuentas de usuarios 
 * Actualizar eventos existentes (solo el creador del evento).
 * Remover eventos existentes (solo el creador del evento).
 
-## **Pasos para correr el servidor**
+## **Ver demo:**
 
-* Instalar node.js y npm si no los tiene.
-* Clonar, hacer fork o descargar el proyecto.
-* Abrir una ventana de comandos en la raíz del proyecto.
-* Ejecutar el siguiente comando ```npm install```, para installar todas la dependencias necesarias.
-* Obtener una cadena de conexión para MongoDB, puedes obtener un cluster gratuito en el siguiente enlace [ir a MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register "MongoDB Atlas").
-* Cambiar el nombre del archivo ```.env.template``` a ```.env``` e ingresar los siguientes valores en las variables: PORT=4000 DB_CONNECTION="cadena de conexión obtenida en el paso anterior" JWT_SECRET="Una palabra clave por ejemplo MyPersonalKeyword".
-* Ahora en la ventana de comandos abierta ejecuta el siguiente comando ```npm run server```.
-
-**Nota:** Para hacer peticiones a los endpoints puede usar Postman, Thunder client, o usar el frontend que hice para éste backend; [Ir al Calendar Frontend](https://github.com/EduardoUh/calendar-frontend "Calendar Frontend").
+[Calendar App](https://calendar-app-qp6b.onrender.com "Calendar App")
 
 ## **Tecnologías usadas en el proyecto:**
 
@@ -40,6 +32,18 @@ Backend para un calendario web, que permite la creación de cuentas de usuarios 
 * Dotenv.
 * nodemon.
 
+## **Si desea correr la aplicación usted mismo, siga los siguientes pasos:**
+
+* Instalar node.js y npm si no los tiene.
+* Clonar, hacer fork o descargar el proyecto.
+* Abrir una ventana de comandos en la raíz del proyecto.
+* Ejecutar el siguiente comando ```npm install```, para installar todas la dependencias necesarias.
+* Obtener una cadena de conexión para MongoDB, puedes obtener un cluster gratuito en el siguiente enlace [ir a MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register "MongoDB Atlas").
+* Cambiar el nombre del archivo ```.env.template``` a ```.env``` e ingresar los siguientes valores en las variables: PORT=4000 DB_CONNECTION="cadena de conexión obtenida en el paso anterior" JWT_SECRET="Una palabra clave por ejemplo MyPersonalKeyword".
+* Ahora en la ventana de comandos abierta ejecuta el siguiente comando ```npm run server```.
+
+**Nota:** Para hacer peticiones a los endpoints puede usar Postman, Thunder client, o usar el frontend que hice para éste backend; [Ir al Calendar Frontend](https://github.com/EduardoUh/calendar-frontend "Calendar Frontend").
+
 ## **Description:**
 
 Backend for a web calendar, it allows users and calendar events creation.
@@ -53,17 +57,9 @@ Backend for a web calendar, it allows users and calendar events creation.
 * Update existent events (Only the author of the event).
 * Remove existent events (Only the author of the event).
 
-## **Steps to get the server running**
+## **See live site:**
 
-* Install node.js and npm if you don't have them.
-* Clone, fork or download the project.
-* Open a cli in the project root.
-* Run the following command to install all necessary dependencies ```npm install```.
-* Get a MongoDB connection string, you can get a free cluster in the following link [go to MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register "MongoDb Atlas").
-* Rename the ```.env.template``` file to ```.env``` and asign the following values to the variables: PORT=4000 DB_CONNECTION="MongoDb connection string" JWT_SECRET="Any keyword you want e.g. MyPersonalKeyword".
-* Now in the cli run the following command ```npm run server```, to get the server running.
-
-**Note:** To start making requests to the endpoints you can use Postman, Thunder client, or use the frontend I made for this backend; [Go to Calendar Frontend](https://github.com/EduardoUh/calendar-frontend "Calendar Frontend").
+[Calendar App](https://calendar-app-qp6b.onrender.com "Go to live site")
 
 ## **Technologies used in the project:**
 
@@ -79,3 +75,15 @@ Backend for a web calendar, it allows users and calendar events creation.
 * Moment.
 * Dotenv.
 * nodemon.
+
+## **If you wish to get this running by yourself follow the next steps:**
+
+* Install node.js and npm if you don't have them.
+* Clone, fork or download the project.
+* Open a cli in the project root.
+* Run the following command to install all necessary dependencies ```npm install```.
+* Get a MongoDB connection string, you can get a free cluster in the following link [go to MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register "MongoDb Atlas").
+* Rename the ```.env.template``` file to ```.env``` and asign the following values to the variables: PORT=4000 DB_CONNECTION="MongoDb connection string" JWT_SECRET="Any keyword you want e.g. MyPersonalKeyword".
+* Now in the cli run the following command ```npm run server```, to get the server running.
+
+**Note:** To start making requests to the endpoints you can use Postman, Thunder client, or use the frontend I've created for this backend; [Go to Calendar Frontend](https://github.com/EduardoUh/calendar-frontend "Calendar Frontend").
