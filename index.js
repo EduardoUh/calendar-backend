@@ -1,10 +1,14 @@
 import express from "express";
 import 'dotenv/config';
 import cors from 'cors';
-
 import { dbConnection } from './database/config.js';
 import { authRouter, eventsRouter } from './routes/index.js';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
+
+// Get the directory name of the current module file
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // creating express app
 const app = express();
